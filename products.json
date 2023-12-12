@@ -2,35 +2,35 @@
   {
     "id": 1,
     "name": "Men's T-shirt",
-    "image": "/img/q7.webp",
+    "image": "./json_data/1.jpg",
     "rating": 4.5,
     "price": 300
   },
   {
     "id": 2,
     "name": "Women's Jeans",
-    "image": "/img/q8.jpg",
+    "image": "./json_data/2.jpg",
     "rating": 4.2,
     "price": 450
   },
   {
     "id": 3,
     "name": "Sports Shoes",
-    "image": "/img/q9.webp",
+    "image": "/json_data/3.avif",
     "rating": 4.8,
     "price": 600
   },
   {
     "id": 4,
     "name": "Leather Jacket",
-    "image": "/img/q10.jpg",
+    "image": "/json_data/4.jpg",
     "rating": 4.7,
     "price": 800
   },
   {
     "id": 5,
     "name": "Casual Watch",
-    "image": "/img/q11.webp",
+    "image": "/json_data/5.jpg",
     "rating": 4.3,
     "price": 150
   },
@@ -38,21 +38,21 @@
   {
     "id": 6,
     "name": "Men's T-shirt",
-    "image": "/img/men1.jpg",
+    "image": "/json_data/7.webp",
     "rating": 4.5,
     "price": 300
   },
   {
     "id": 7,
     "name": "Men's Jeans",
-    "image": "/img/men2.jpg",
+    "image": "/json_data/6.webp",
     "rating": 4.2,
     "price": 450
   },
   {
     "id": 8,
     "name": "Men's Sports Shoes",
-    "image": "/img/men3.jpg",
+    "image": "/json_data/8.jpg",
     "rating": 4.8,
     "price": 600
   },
@@ -60,21 +60,21 @@
   {
     "id": 9,
     "name": "Women's Blouse",
-    "image": "/img/women1.jpg",
+    "image": "/json_data/9.webp",
     "rating": 4.6,
     "price": 350
   },
   {
     "id": 10,
     "name": "Women's Skirt",
-    "image": "/img/women2.jpg",
+    "image": "/json_data/10.jpg",
     "rating": 4.4,
     "price": 500
   },
   {
     "id": 11,
     "name": "Women's High Heels",
-    "image": "/img/women3.jpg",
+    "image": "/json_data/11.jpg",
     "rating": 4.9,
     "price": 700
   },
@@ -82,21 +82,21 @@
   {
     "id": 12,
     "name": "Kids' Cartoon T-shirt",
-    "image": "/img/kids1.jpg",
+    "image": "/json_data/12.jpg",
     "rating": 4.7,
     "price": 200
   },
   {
     "id": 13,
     "name": "Kids' Jeans",
-    "image": "/img/kids2.jpg",
+    "image": "/json_data/13.jpg",
     "rating": 4.2,
     "price": 350
   },
   {
     "id": 14,
     "name": "Kids' Sneakers",
-    "image": "/img/kids3.jpg",
+    "image": "/json_data/14.jpg",
     "rating": 4.5,
     "price": 400
   }

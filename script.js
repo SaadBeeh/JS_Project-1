@@ -34,3 +34,40 @@ var swiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const url = "./products.json";
+
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((item) => {
+        const { id, name, image, rating, price } = item;
+
+        const productContainer = document.querySelector(".products-container");
+
+        const newProduct = document.createElement("div");
+        newProduct.classList.add("box");
+
+        newProduct.innerHTML = `
+        <img src="${image}" alt="${name}" />
+        <div class="content">
+          <h2>${name}</h2>
+          <box-icon type="solid" name="star"></box-icon>
+          <box-icon type="solid" name="star"></box-icon>
+          <box-icon type="solid" name="star"></box-icon>
+          <box-icon type="solid" name="star"></box-icon>
+          <box-icon name="star-half" type="solid"></box-icon>
+          <br />
+          <span>EGP ${price} </span>
+          <box-icon name="cart-download" type="solid"></box-icon>
+        </div>
+      `;
+
+        productContainer.appendChild(newProduct);
+      });
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+});
