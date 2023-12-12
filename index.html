@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M&M</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#" class="logo-a">
+          <img id="logo-img" src="4m logo.webp" alt="" />
+        </a>
+      </div>
+
+      <div class="nav-C">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New Arrival</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="header-icon">
+        <button class="cart-btn"><box-icon name="cart"></box-icon></button>
+        <button class="user-btn">
+          <box-icon type="solid" name="user"></box-icon>
+        </button>
+        <button class="menu-btn">
+          <box-icon name="menu-alt-right" id="menu-icon"></box-icon>
+        </button>
+      </div>
+      <div class="cart-H">
+        <div class="box">
+          <img src="img/1.jpg" alt="" />
+          <div class="img-h-t">
+            <h3>T-SHirt</h3>
+            <span>50$</span>
+            <span>x1</span>
+            <box-icon class="bx" name="trash"></box-icon>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/2.avif" alt="" />
+          <div class="img-h-t">
+            <h3>T-SHirt</h3>
+            <span>50$</span>
+            <span>x1</span>
+            <box-icon class="bx" name="trash"></box-icon>
+          </div>
+        </div>
+        <h2>total:100$</h2>
+        <button class="btn">Checkout</button>
+      </div>
+      <!------------- user-------------- -->
+      <div class="user">
+        <div>
+          <h2>Login</h2>
+          <input type="email" placeholder="Your Email" />
+          <input type="password" placeholder="Password" />
+          <input type="submit" value="login" class="login-btn" />
+        </div>
+        <div class="DPass">
+          <p>forget password</p>
+          <a href="#">reset Now</a>
+        </div>
+        <div class="DPass">
+          <p>Don't have Acount</p>
+          <a href="#">Create Acount</a>
+        </div>
+      </div>
+    </header>
+    <hr class="hr-head" />
+    <!-- <div class="search">
+      <input type="search" placeholder="Search.." id="searchInput" />
+      <button class="search-btn"><box-icon name="search"></box-icon></button>
+    </div> -->
+    <!------------ home  -------------->
+    <section class="home" id="home">
+      <div class="home-text">
+        <span>SHOP NOW!</span>
+        <h1>
+          New Arrival of<br />
+          Fresh Products
+        </h1>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!------------- new Arrival -->
+    <section class="newArrival" id="newArrival">
+      <div class="heading">
+        <h2>New <span>Arrival</span></h2>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/p1.avif" alt="" />
+            <div class="content">
+              <p>SHOP NOW</p>
+              <a href="#"
+                >Add to cart
+                <box-icon type="solid" name="cart-download"></box-icon>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/p2.jpg" alt="" />
+            <div class="content">
+              <p>SHOP NOW</p>
+              <a href="#"
+                >Add to cart
+                <box-icon type="solid" name="cart-download"></box-icon>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/p3.jpg" alt="" />
+            <div class="content">
+              <p>SHOP NOW</p>
+              <a href="#"
+                >Add to cart
+                <box-icon type="solid" name="cart-download"></box-icon>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/q4.jpg" alt="" />
+            <div class="content">
+              <p>SHOP NOW</p>
+              <a href="#"
+                >Add to cart
+                <box-icon type="solid" name="cart-download"></box-icon>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide swip-slid-box">
+            <img src="/img/q6.jpg" alt="" />
+            <div class="content">
+              <p>SHOP NOW</p>
+              <a href="#"
+                >Add to cart
+                <box-icon type="solid" name="cart-download"></box-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product" id="product">
+      <!-- <---here- -->
+
+      <div class="products-container">
+        <div class="box">
+          <img src="/img/q2.jpg" alt="" />
+          <div class="content">
+            <h2>Men's T-shirt</h2>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+            <br />
+            <span>EGP 300 </span>
+            <box-icon name="cart-download" type="solid"></box-icon>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/img/q3.jpg" alt="" />
+          <div class="content">
+            <h2>Men's T-shirt</h2>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+            <br />
+            <span>EGP 300 </span>
+            <box-icon name="cart-download" type="solid"></box-icon>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/img/q1.jpg" alt="" />
+          <div class="content">
+            <h2>Men's T-shirt</h2>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+            <br />
+            <span>EGP 300 </span>
+            <box-icon name="cart-download" type="solid"></box-icon>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/img/q4.jpg" alt="" />
+          <div class="content">
+            <h2>Men's T-shirt</h2>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+            <br />
+            <span>EGP 300 </span>
+            <box-icon name="cart-download" type="solid"></box-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!------------ sc  -------------->
+    <script src="script.js"></script>
+  </body>
+</html>
