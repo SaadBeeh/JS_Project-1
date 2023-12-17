@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M&M</title>
+    <title>4M STORE</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -18,16 +18,16 @@
     <header>
       <div class="logo">
         <a href="#" class="logo-a">
-          <img id="logo-img" src="4m logo.webp" alt="" />
+          <img id="logo-img" src="/img/4m logo.webp" alt="" />
         </a>
       </div>
 
       <div class="nav-C">
         <ul class="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New Arrival</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Reviews</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#newArrival">New Arrival</a></li>
+          <li><a href="#product">Products</a></li>
+          <li><a href="#Reviews">Reviews</a></li>
         </ul>
       </div>
       <div class="header-icon">
@@ -35,10 +35,12 @@
         <button class="user-btn">
           <box-icon type="solid" name="user"></box-icon>
         </button>
+
         <button class="menu-btn">
           <box-icon name="menu-alt-right" id="menu-icon"></box-icon>
         </button>
       </div>
+
       <div class="cart-H">
         <div class="box">
           <img src="img/1.jpg" alt="" />
@@ -65,9 +67,9 @@
       <div class="user">
         <div>
           <h2>Login</h2>
-          <input type="email" placeholder="Your Email" />
-          <input type="password" placeholder="Password" />
-          <input type="submit" value="login" class="login-btn" />
+          <input id="UserName_login" type="email" placeholder="Your Email" />
+          <input id="Password_login" type="password" placeholder="Password" />
+          <input id="login_btn" type="submit" value="login" class="login-btn" />
         </div>
         <div class="DPass">
           <p>forget password</p>
@@ -75,7 +77,7 @@
         </div>
         <div class="DPass">
           <p>Don't have Acount</p>
-          <a href="#">Create Acount</a>
+          <a id="register" href="Register.html">Create Acount</a>
         </div>
       </div>
     </header>
@@ -94,6 +96,7 @@
         </h1>
         <a href="#" class="btn">Shop Now</a>
       </div>
+      <div id="UserName"><a href="#"></a></div>
     </section>
 
     <!------------- new Arrival -->
@@ -104,7 +107,7 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/img/p1.avif" alt="" />
+            <img src="/col 1.jpg" alt="" />
             <div class="content">
               <p>SHOP NOW</p>
               <a href="#"
@@ -114,7 +117,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="/img/p2.jpg" alt="" />
+            <img src="/col2.jpg" alt="" />
             <div class="content">
               <p>SHOP NOW</p>
               <a href="#"
@@ -124,7 +127,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="/img/p3.jpg" alt="" />
+            <img src="/col 3.jpg" alt="" />
             <div class="content">
               <p>SHOP NOW</p>
               <a href="#"
@@ -134,7 +137,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="/img/q4.jpg" alt="" />
+            <img src="/col4.jpg" alt="" />
             <div class="content">
               <p>SHOP NOW</p>
               <a href="#"
@@ -144,7 +147,7 @@
             </div>
           </div>
           <div class="swiper-slide swip-slid-box">
-            <img src="/img/q6.jpg" alt="" />
+            <img src="/col 6.jpg" alt="" />
             <div class="content">
               <p>SHOP NOW</p>
               <a href="#"
@@ -216,6 +219,14 @@
             <box-icon name="cart-download" type="solid"></box-icon>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="Reviews">
+      <div class="heading">
+        <h2>Customers <span>Reviews</span></h2>
+      </div>
+      <div class="cr">
+        <img class="Reviews" src="c r.jpg" alt="" />
       </div>
     </section>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

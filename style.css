@@ -36,8 +36,8 @@ section {
   padding: 50px 100px;
 }
 #logo-img {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
 }
 header {
   position: fixed;
@@ -51,9 +51,9 @@ header {
   transition: 0.5s linear;
   gap: 150px;
   font-size: medium;
-  margin-top: 5px;
+  margin-top: 0px;
   background-color: rgb(255, 255, 255);
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 .navbar {
@@ -117,8 +117,8 @@ header {
   max-width: 300px;
 }
 .cart-H img {
-  width: 80%;
-  height: 100px;
+  width: 50%;
+  height: 80px;
   border-radius: 0.5rem;
   padding-bottom: 5px;
 }
@@ -161,7 +161,7 @@ a {
   display: inline-block;
   font-weight: 500;
   text-transform: uppercase;
-  clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+  border-radius: 300px 10px;
 }
 .btn:hover {
   background-color: #3599be;
@@ -251,7 +251,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   align-items: center;
   gap: 1.5rem;
-  background: url("/img/home2.jpg") center/cover no-repeat;
+  background: url("/3.jpg") center/cover no-repeat;
   color: white;
   padding: 10px 90px;
 }
@@ -280,22 +280,25 @@ a {
   display: inline-block;
   font-weight: 500;
   text-transform: uppercase;
-  clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+  border-radius: 300px 10px;
 }
 .sale {
   text-decoration: line-through;
 }
 .newArrival {
   margin-top: 2rem;
+  width: 100%;
 }
 .newArrival .swiper-slide {
   position: relative;
   overflow: hidden;
   background: white;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 .newArrival .swiper-slide .img {
   background: var(--second-color);
@@ -348,5 +351,37 @@ a {
 .products-container .box:hover {
   scale: 1.09;
   transition: 0.5s;
+  box-shadow: var(--box-shadow);
+}
+.products-container img {
+  height: 80%;
+}
+.box img {
+  height: 300px;
+  background-color: #fda702;
+}
+#logout {
+  font-size: small;
+  color: #3599be;
+  text-decoration: underline;
+}
+#UserName {
+  display: flex;
+  align-items: center;
+  margin-bottom: 400px;
+  margin-left: 320px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fda702;
+}
+#UserName a {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: underline;
+  /* display: none; */
+}
+.cr img {
+  height: 1000px;
   box-shadow: var(--box-shadow);
 }

@@ -4,7 +4,8 @@
     "name": "Men's T-shirt",
     "image": "./json_data/1.jpg",
     "rating": 4.5,
-    "price": 300
+    "price": 300,
+    "category": "men"
   },
   {
     "id": 2,
